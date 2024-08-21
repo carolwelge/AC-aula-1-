@@ -1,0 +1,18 @@
+1)
+
+Relação entre LGPD e os Data Centers no Brasil 
+
+A) No Brasil, os data centers são responsáveis por garantir a segurança e a privacidade dos dados pessoais que armazenam e processam. Eles devem adotar medidas de segurança fortes, como criptografia e controle de acesso, e estarem preparados para relatar incidentes de segurança. Ademais, a localização dos dados deve considerar as regras de transferência internacional. Essas medidas são necessárias para que essas empresas que utilizam data centers estejam em conformidade com a LGPD, lei de geral de proteção de dados que atua em todo o território brasileiro. 
+
+Formatos de arquivos de dados proprietários e abertos 
+
+b.1) Os formatos de aequivos podem ser proprietários ou abertos. 
+
+Exemplos de arquivos proprietários:
+docx e psd, são controlados por empresas e podem exigir software específico para acesso, limitando a interoperabilidade e impondo dependência de fornecedores.
+
+Exemplos de arquivos abertos: 
+Já os formatos abertos, como csv, json, e odt, são acessíveis a todos, promovendo a interoperabilidade, transparência e longevidade dos dados.
+
+b.2) Nos casos de dados públicos, formatos abertos são preferíveis, visto que democratizam o acesso, promovem a transparência e estimulam a inovação, enquanto formatos proprietários podem restringir o acesso e dificultar a reutilização dos dados.
+
