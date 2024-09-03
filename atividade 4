@@ -1,0 +1,25 @@
+1. Explique as diferenças entre 3 linguagens de programação:
+
+linguagem de programação é um conjunto de instruções escritas realizadas por um programador, com o objetivo de fornecer instruções ao computador a ser utilizado para execução de uma atividade, traduzindo a sequência binária dos computadores. Como exemplo de três linguagens temos: 
+
+Python, que possui uma linguagem reconhecida pela sua simplicidade, tendo uma utilidade mais versátil, frequentemente para desenvolvimento web; JavaScript, utilizada especificamente para desenvolvimento web, normalmente em conjunto com o HTML, e por fim, C++, linguagem de médio/ baixo nível, mais complexa, comumente usada para o desenvolvimento de sistemas, jogos, e software de alto desempenho.
+
+   a. Tente fazer um código mínimo em cada uma delas.
+   b. Tente executar o seu código.
+
+
+     python - print ("Hello, World!")
+        `python3 script.py` 
+
+  JavaScript - console.log("Hello, World!");
+     `node script.js`
+
+C++ - cpp #include <iostream>   int main() {
+         std::cout << "Hello, World!" << std::endl;
+         return 0; }
+`g++ script.cpp -o script && ./script`
+
+
+     
+
+
