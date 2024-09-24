@@ -1,0 +1,136 @@
+
+
+
+```python
+def imprimir_informacoes(nome, idade, cidade):
+    print("Nome:", nome, sep=" ", end=" | ")
+    print("Idade:", idade, sep=" ", end=" | ")
+    print("Cidade:", cidade, sep=" ", end="\n")
+
+imprimir_informacoes("Maria", 25, "São Paulo")
+```
+
+- O parâmetro `sep=" "` define o separador entre os itens dentro do próprio `print()`.
+- O parâmetro `end=" | "` é usado para definir o que será impresso no final de cada `print()`. No exemplo, ele adiciona o caractere `|` após cada item impresso, exceto no último, onde termina com uma nova linha (`\n`).
+
+```
+Nome: Maria | Idade: 25 | Cidade: São Paulo
+```
+
+  
+def calculadora():
+    # Solicitando os números ao usuário
+    num1 = float(input("Digite o primeiro número: "))
+    num2 = float(input("Digite o segundo número: "))
+    
+    # Solicitando a operação desejada
+    operacao = input("Digite a operação desejada (+, -, *, /): ")
+    
+    # Realizando a operação de acordo com o input do usuário
+    if operacao == '+':
+        resultado = num1 + num2
+        print(f"O resultado de {num1} + {num2} é {resultado}")
+    elif operacao == '-':
+        resultado = num1 - num2
+        print(f"O resultado de {num1} - {num2} é {resultado}")
+    elif operacao == '*':
+        resultado = num1 * num2
+        print(f"O resultado de {num1} * {num2} é {resultado}")
+    elif operacao == '/':
+        if num2 != 0:
+            resultado = num1 / num2
+            print(f"O resultado de {num1} / {num2} é {resultado}")
+        else:
+            print("Erro: Divisão por zero não é permitida.")
+    else:
+        print("Operação inválida. Por favor, escolha entre +, -, * ou /.")
+
+# Exemplo de chamada da função:
+calculadora()
+
+Exemplo de saída 
+Digite o primeiro número: 10
+Digite o segundo número: 5
+Digite a operação desejada (+, -, *, /): *
+O resultado de 10.0 * 5.0 é 50.0
+
+
+    
+def lista_de_compras():
+    # Solicitando os itens ao usuário
+    itens = input("Digite todos os itens da lista de compras, separados por vírgula: ")
+    
+    # Separando os itens com base na vírgula e removendo possíveis espaços em branco extras
+    lista = [item.strip() for item in itens.split(",")]
+    
+    # Imprimindo cada item em linhas separadas, numerando-os
+    for i, item in enumerate(lista, 1):
+        print(f"Item {i}: {item}")
+
+# Exemplo de chamada da função:
+lista_de_compras()
+
+Exemplo de saída 
+
+Digite todos os itens da lista de compras, separados por vírgula: leite, ovos, pão, manteiga
+Item 1: leite
+Item 2: ovos
+Item 3: pão
+Item 4: manteiga
+
+   
+
+def converter_celsius_para_fahrenheit():
+    # Solicitando a temperatura em Celsius ao usuário
+    celsius = float(input("Digite a temperatura em graus Celsius: "))
+    
+    # Convertendo para Fahrenheit usando a fórmula
+    fahrenheit = (celsius * 9/5) + 32
+    
+    # Imprimindo o resultado
+    print(f"A temperatura de {celsius}°C é equivalente a {fahrenheit}°F.")
+
+# Exemplo de chamada da função:
+converter_celsius_para_fahrenheit()
+
+Exemplo de saída:
+
+Digite a temperatura em graus Celsius: 25
+A temperatura de 25.0°C é equivalente a 77.0°F.
+
+
+  
+
+def coletar_nomes():
+    nomes = []  # Lista para armazenar os nomes
+
+    while True:
+        # Solicitando o nome ao usuário
+        nome = input("Digite um nome (ou 'sair' para finalizar): ")
+
+        # Verificando se o usuário digitou 'sair' para interromper o loop
+        if nome.lower() == 'sair':
+            break
+        
+        # Adicionando o nome à lista
+        nomes.append(nome)
+
+    # Imprimindo os nomes digitados, cada um em uma linha
+    print("\nNomes digitados:")
+    for nome in nomes:
+        print(nome)
+
+# Exemplo de chamada da função:
+coletar_nomes()
+
+Exemplo de saída:
+Digite um nome (ou 'sair' para finalizar): João
+Digite um nome (ou 'sair' para finalizar): Maria
+Digite um nome (ou 'sair' para finalizar): Pedro
+Digite um nome (ou 'sair' para finalizar): sair
+
+Nomes digitados:
+João
+Maria
+Pedro
+
